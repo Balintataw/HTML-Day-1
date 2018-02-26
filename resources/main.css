@@ -1,7 +1,11 @@
+/* universal styling */
+
 * {
     font-size: 16px;
     /* border: 1px solid black; */
 }
+
+/* header section */
 
 .header {
     display: flex;
@@ -15,13 +19,29 @@
     align-items: center;
 }
 
+.header-left span {
+    font-family: "original surfer";
+    font-size: 1.5rem;
+}
+
 img {
-    height: 2rem;
-    width: 2rem;
+    height: 2.5rem;
+    width: 2.5rem;
     padding: 1rem;
 }
 
 .nav {
     display: flex;
     padding-right: 1rem;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+/* ingredients section */
+
+.ingredients {
+    border-bottom: 2px solid rgb(252, 152, 2);
+    
 }
