@@ -5,6 +5,11 @@
     /* border: 1px solid black; */
 }
 
+h1 {
+    font-family: "original surfer";
+    padding: 1rem;
+}
+
 /* header section */
 
 .header {
@@ -12,6 +17,7 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid rgb(252, 152, 2);
+    font-family: "original surfer";
 }
 
 .header-left {
@@ -20,8 +26,7 @@
 }
 
 .header-left span {
-    font-family: "original surfer";
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 img {
@@ -37,11 +42,43 @@ img {
 
 .nav a {
     text-decoration: none;
+    color: black;
 }
 
 /* ingredients section */
 
 .ingredients {
+    display: flex;
     border-bottom: 2px solid rgb(252, 152, 2);
-    
+}
+
+.ingredients-left {
+    width: 50%;
+}
+
+.ingredients-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ingredients-right img {
+    width: 325px;
+    height: 220px;
+    border: 2px solid rgb(252, 152, 2);
+}
+
+/* procedural section */
+
+.procedure {
+    border-bottom: 2px solid rgb(252, 152, 2);
+}
+
+/* video */
+
+/* footer */
+  
+footer {
+    margin-top: 2rem;
+    border-top: 2px solid rgb(252, 152, 2);
 }
